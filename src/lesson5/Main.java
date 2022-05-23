@@ -7,7 +7,7 @@ public class Main {
         System.out.println(LabString.longWord(str));
 
         System.out.println("Задание 2:");
-        String str1 = "Шалаш";
+        String str1 = "Топот";
         String str2 = "Город";
         System.out.println("Слово палиндром? " + LabString.isPalindrome(str1));
         System.out.println("Слово палиндром? " + LabString.isPalindrome(str2));
