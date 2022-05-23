@@ -66,17 +66,17 @@ public class Main {
 //        int[] array = new int[]{12, 3, 18, 12, 15, 25, 25, 3, 54};
 //        System.out.println("Массив 1:" + Arrays.toString(array));
 //        Array.arrayUnique(array);
-
-//        System.out.println("Задание 5:");
-//        System.out.println("Введите размерность массива целых чисел: ");
-//        Scanner scanner = new Scanner(System.in);
-//        int n = scanner.nextInt();
-//        int[] array2 = new int[n];
-//        for (int i = 0; i < array2.length; i++) {
-//            array2[i] = (int) (Math.random() * 100);
-//        }
-//        System.out.println("Исходный массив: " + Arrays.toString(array2));
-//        Array.mergeSort(array2, n);
-//        System.out.println("Отсортированный массив: " + Arrays.toString(array2));
+//
+        System.out.println("Задание 5:");
+        System.out.println("Введите размерность массива целых чисел: ");
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[] array2 = new int[n];
+        for (int i = 0; i < array2.length; i++) {
+            array2[i] = (int) (Math.random() * 100);
+        }
+        System.out.println("Исходный массив: " + Arrays.toString(array2));
+        Array.mergeSort(array2, n);
+        System.out.println("Отсортированный массив: " + Arrays.toString(array2));
     }
 }
