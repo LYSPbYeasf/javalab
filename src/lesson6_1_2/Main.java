@@ -2,7 +2,7 @@ package lesson6_1_2;
 
 public class Main {
     public static void main(String[] args) {
-        Client client = new Client("Анна", "Смирнова", "Сбербанк");
+        Client client = new Client("Карина", "Смирнова", "Сбербанк");
         BankOfficer bankOfficer = new BankOfficer("Марк", "Васильев", "Отделение 187 Сбербанк");
         System.out.println("Клиент");
         System.out.println(client.getAllInfo());
