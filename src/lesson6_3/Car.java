@@ -12,12 +12,13 @@ public class Car {
         System.out.println("Цвет машины - " + color + " и её скорость - " + speed);
     }
 
-    public Car(int weight, String model, char color, float speed) {
-        this.weight = weight;
-        this.model = model;
-        this.color = color;
-        this.speed = speed;
+    public Car(int w, String m, char c, float s) {
+        weight = w;
+        model = m;
+        color = c;
+        speed = s;
     }
+
     public Car() {
     }
 }
