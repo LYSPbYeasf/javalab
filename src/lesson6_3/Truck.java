@@ -9,7 +9,6 @@ public class Truck extends Car {
         this.numberOfWheels = numberOfWheels;
         this.maxWeight = maxWeight;
     }
-
     public Truck() {
 
     }
