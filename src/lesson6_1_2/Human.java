@@ -10,7 +10,6 @@ public abstract class Human implements AccountOpen {
     public String getFirstName(){
         return firstName;
     }
-
     public String getLastName(){
         return lastName;
     }

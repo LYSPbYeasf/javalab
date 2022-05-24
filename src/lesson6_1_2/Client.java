@@ -10,7 +10,6 @@ public class Client extends Human {
     public String getBankName() {
         return bankName;
     }
-
     @Override
     public String getAllInfo() {
         return "Имя клиента: " + getFirstName() + "\nФамилия клиента: " + getLastName() + "\nНазвание банка: " + getBankName();

@@ -20,7 +20,6 @@ public class BankOfficer extends Human {
     public void openBankAccount() {
         System.out.println("Выдал кредит");
     }
-
     @Override
     public int creditSum() {
         return 50000;
