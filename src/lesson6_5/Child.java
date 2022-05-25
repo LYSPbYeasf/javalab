@@ -1,7 +1,7 @@
 package lesson6_5;
 
 public class Child extends Parent {
-    String firstName;
+    public String firstName;
     @Override
     public void inputField() {
         System.out.println("Введите имя: ");
