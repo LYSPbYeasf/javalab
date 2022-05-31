@@ -6,13 +6,13 @@ import java.util.Random;
 import java.util.Set;
 
 public class LabCollections {
-    public static Set<Object> notDuplicate(List<Integer> list) {
-        return new HashSet<Object>(list);
+    public static Set<Integer> notDuplicate(List<Integer> list) {
+        return new HashSet<Integer>(list);
     }
 
-    public static Set<Object> notDuplicate1(List<String> list) {
+    public static Set<String> notDuplicate1(List<String> list) {
 
-        return new HashSet<Object>(list);
+        return new HashSet<String>(list);
     }
 
     public static void oneAddMillion(List<Integer> list) {
